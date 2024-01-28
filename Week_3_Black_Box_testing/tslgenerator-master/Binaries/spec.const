@@ -1,0 +1,17 @@
+# Prefix
+    Visa
+    MasterCard
+    American Express
+# Length
+    None
+    <15
+    15
+    16
+    >16
+# Checksum
+    Incorrect
+    Correct
+# Sign
+    Positive
+    Negative
+
