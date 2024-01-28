@@ -1,0 +1,4 @@
+- Black box testing
+    - Testing without looking at the source/implementation
+
+- Testing Framework generally provide the following functionality
