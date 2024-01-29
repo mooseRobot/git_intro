@@ -1,17 +1,25 @@
 # Prefix
-    Visa
-    MasterCard
-    American Express
+    Prefix:
+        0.          <error>
+        4.          <property visa>
+        50.         <error>
+        51.         <property mastercard>
+        55.         <property mastercard>
+        56.         <error>
+        2220.       <error>
+        2221.       <property mastercard>
+        2720.       <property mastercard>
+        2721.       <error>
+        34.         <property amex>
+        37.         <property amex>
 # Length
-    None
-    <15
-    15
-    16
-    >16
+    Length:
+        0.          <error>
+        14.
+        15.         <if property>
+        16.
+        17.
 # Checksum
-    Incorrect
-    Correct
-# Sign
-    Positive
-    Negative
-
+    Checksum:
+        Incorrect.
+        Correct.
